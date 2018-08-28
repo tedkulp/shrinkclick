@@ -18,6 +18,8 @@ let schemas = {};
 })();
 
 module.exports = {
+    models: models,
+    schemas: schemas,
     loadModel: name => {
         return models[name];
     },
